@@ -1,0 +1,17 @@
+.chatbox {
+    height: 50vh;
+    border: solid grey 1px;
+    overflow-y: scroll
+}
+
+/*Overwriting jumbotron class to reduce padding.
+Do not change default library rules when making apps*/
+.jumbotron {
+    padding: 10px;
+    border: solid black 3px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 10px;
+    padding-right: 10px;
+}
