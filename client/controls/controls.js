@@ -1,13 +1,10 @@
-Template.controls.events({
+import { Template } from 'meteor/templating';
+import './controls.html';
 
-    'submit form'(e, tempalte) {
+Template.Controls.events({
+    'click #submit-button'(e, tempalte) {
         e.preventDefault();
-
-        const text = $(e.target).find('[name="message"]').val();
-        console.log(text);
-    },
-
-    'click #clear'(e) {
-        e.preventDefault();
+        const text = $('#message-input').val();
+        console.log('Text: ' + text);
     }
 });
