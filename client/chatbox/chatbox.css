@@ -1,7 +1,7 @@
 .chatbox {
     height: 50vh;
     border: solid grey 1px;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 /*Overwriting jumbotron class to reduce padding.
