@@ -14,7 +14,7 @@ if (Meteor.isServer) {
 Meteor.methods({
     'User/InsertMessage'(content) {
         return Messages.insert({
-            author: 'Anonymous',
+            author: Meteor.user().username,
             time: new Date(),
             content
         });

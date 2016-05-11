@@ -5,7 +5,11 @@
 <body>
     {{> navbar}}
     <div class="container">
-        {{> Chatbox}}
-        {{> Controls}}
+        {{#if currentUser}}
+            {{> Chatbox}}
+            {{> Controls}}
+        {{else}}
+            <h1> Please log in. </h1>
+        {{/if}}
     </div>
 </body>
