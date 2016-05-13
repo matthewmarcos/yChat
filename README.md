@@ -8,10 +8,12 @@ This application is used to demonstrate the `accounts-ui` and `accounts-password
 1. Clone it
 
 ### Branches
-- ***Start***
+- ***Start*** 
+`git checkout -b Start origin/Start`
     - What your code should look like at the start
 
-- ***Finished***
+- ***Finished*** 
+`git checkout -b Finished origin/Finished`
     - What your code should look like at the end of the PAD sessions
 
 ### Authors:
